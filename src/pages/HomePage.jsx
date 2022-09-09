@@ -20,7 +20,7 @@ const HomePage = () => {
                 </p>
             </div>
             <div>
-                <Link to="/random-beer">
+                <Link to="/random">
                     <img src={randomBeerImage} alt="randomBeerImage" />
                     <h2>Random Beers</h2>
                 </Link>
