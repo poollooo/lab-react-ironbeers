@@ -27,8 +27,7 @@ function AllBeers() {
                 <BeerCard beer={beer} />
             ))
             }
-
-        </div >
+        </div>
     );
 }
 
