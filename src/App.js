@@ -16,7 +16,7 @@ function App() {
           <Route path="/*" element={<NavBar />} />
           <Route path="/beers" element={<AllBeers />} />
           <Route path="/beers/:id" element={<SingleBeer />} />
-          <Route path="/random-beer" element={<RandomBeers />} />
+          <Route path="/random" element={<RandomBeers />} />
           <Route path="/new-beer" element={<NewBeers />} />
           {/* <Route path="/apartments/new" element={<AddApartmentPage />} /> */}
         </Routes>
